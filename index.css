@@ -1621,7 +1621,7 @@ body.intro-done .rf-skip {
 
 /* beige → navy descent bridge */
 .descent {
-  height: 56vh;
+  height: 20vh;
   background: linear-gradient(
     180deg,
     var(--pearl-3) 0%,
