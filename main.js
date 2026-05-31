@@ -221,30 +221,30 @@
     });
   }
 
-  /* ---- résumé placeholder ---- */
-  document.querySelectorAll("[data-resume]").forEach(function (el) {
-    el.addEventListener("click", function (e) {
-      e.preventDefault();
-      var msg = document.createElement("div");
-      msg.textContent = "Résumé PDF — drop the real file in and link it here.";
-      msg.style.cssText =
-        "position:fixed;left:50%;bottom:34px;transform:translateX(-50%);z-index:200;" +
-        "background:var(--paper);color:var(--ink);font-family:var(--mono);font-size:.74rem;" +
-        "letter-spacing:.04em;padding:13px 20px;border-radius:999px;box-shadow:0 12px 40px rgba(0,0,0,.5);" +
-        "opacity:0;transition:opacity .3s,transform .4s;";
-      document.body.appendChild(msg);
-      requestAnimationFrame(function () {
-        msg.style.opacity = "1";
-        msg.style.transform = "translateX(-50%) translateY(-6px)";
-      });
-      setTimeout(function () {
-        msg.style.opacity = "0";
-        setTimeout(function () {
-          msg.remove();
-        }, 350);
-      }, 2600);
-    });
-  });
+  // /* ---- résumé placeholder ---- */
+  // document.querySelectorAll("[data-resume]").forEach(function (el) {
+  //   el.addEventListener("click", function (e) {
+  //     e.preventDefault();
+  //     var msg = document.createElement("div");
+  //     msg.textContent = "Résumé PDF — drop the real file in and link it here.";
+  //     msg.style.cssText =
+  //       "position:fixed;left:50%;bottom:34px;transform:translateX(-50%);z-index:200;" +
+  //       "background:var(--paper);color:var(--ink);font-family:var(--mono);font-size:.74rem;" +
+  //       "letter-spacing:.04em;padding:13px 20px;border-radius:999px;box-shadow:0 12px 40px rgba(0,0,0,.5);" +
+  //       "opacity:0;transition:opacity .3s,transform .4s;";
+  //     document.body.appendChild(msg);
+  //     requestAnimationFrame(function () {
+  //       msg.style.opacity = "1";
+  //       msg.style.transform = "translateX(-50%) translateY(-6px)";
+  //     });
+  //     setTimeout(function () {
+  //       msg.style.opacity = "0";
+  //       setTimeout(function () {
+  //         msg.remove();
+  //       }, 350);
+  //     }, 2600);
+  //   });
+  // });
 
   /* ---- smooth anchor offset for fixed bar ---- */
   document.querySelectorAll('a[href^="#"]').forEach(function (a) {
