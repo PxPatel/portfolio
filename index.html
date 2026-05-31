@@ -6,7 +6,7 @@
     <title>Priyansh Patel — Computer Science</title>
     <meta
       name="description"
-      content="Priyansh Patel — computer science at NJIT. Work across intelligence, systems, markets, and hardware."
+      content="Priyansh Patel — computer science at NJIT. Work across AI/ML, systems, markets, and game theory."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -56,8 +56,7 @@
         <h1 class="hero-r-name"><span>Priyansh</span><span>Patel</span></h1>
         <div class="hero-r-sig">
           <div class="sig">
-            <span class="g suit-navy">♠</span
-            ><span class="lbl">Intelligence</span>
+            <span class="g suit-navy">♠</span><span class="lbl">AI/ML</span>
           </div>
           <div class="sig">
             <span class="g suit-red">♥</span><span class="lbl">Systems</span>
@@ -66,7 +65,8 @@
             <span class="g suit-red">♦</span><span class="lbl">Markets</span>
           </div>
           <div class="sig">
-            <span class="g suit-navy">♣</span><span class="lbl">Hardware</span>
+            <span class="g suit-navy">♣</span
+            ><span class="lbl">Game Theory</span>
           </div>
         </div>
         <p class="hero-r-note">Four things I keep circling back to</p>
@@ -107,18 +107,14 @@
         </p>
       </div>
 
-      <!-- ♠ SPADES — INTELLIGENCE -->
+      <!-- ♠ SPADES — AI/ML -->
       <div class="suite">
         <div class="suite-ghost suit-navy">♠</div>
         <div class="wrap suite-inner">
           <div class="suite-head reveal">
             <span class="glyph suit-navy">♠</span>
-            <h3>Intelligence</h3>
+            <h3>AI/ML</h3>
             <span class="domain-no">/ AI &amp; learning</span>
-            <p class="blurb">
-              Building the mechanism, not just calling the API — implementations
-              that make the math legible.
-            </p>
           </div>
           <div class="cards-row">
             <div
@@ -145,7 +141,6 @@
                       <span class="tag">PyTorch</span
                       ><span class="tag">WebGL</span>
                     </div>
-                    <span class="yr">2025</span>
                   </div>
                   <span class="card-corner br"
                     ><span class="rank">A</span
@@ -174,59 +169,6 @@
                 </div>
               </div>
             </div>
-
-            <div
-              class="card deal"
-              data-rank="K"
-              data-suit="♠"
-              data-color="navy"
-            >
-              <div class="card-inner">
-                <div class="card-face card-front">
-                  <span class="card-corner tl"
-                    ><span class="rank">K</span
-                    ><span class="s suit-navy">♠</span></span
-                  >
-                  <div class="body">
-                    <div class="ptitle">Latent Atlas</div>
-                    <div class="pone">
-                      A navigator for high-dimensional embedding spaces — pan,
-                      zoom, and trace how meaning clusters.
-                    </div>
-                  </div>
-                  <div class="foot">
-                    <div class="tags">
-                      <span class="tag">UMAP</span><span class="tag">ONNX</span>
-                    </div>
-                    <span class="yr">2024</span>
-                  </div>
-                  <span class="card-corner br"
-                    ><span class="rank">K</span
-                    ><span class="s suit-navy">♠</span></span
-                  >
-                  <span class="card-hint">Details</span>
-                </div>
-                <div class="card-face card-back">
-                  <div class="back-pattern"></div>
-                  <div class="back-inner">
-                    <div class="back-top">
-                      <span class="back-rank">K♠</span
-                      ><span class="back-glyph suit-navy">♠</span>
-                    </div>
-                    <h4>Latent Atlas</h4>
-                    <p class="desc">
-                      Projects model embeddings into a navigable map and lets
-                      you scrub between layers to watch representations sharpen.
-                      A small instrument for an intuition that's otherwise
-                      invisible.
-                    </p>
-                    <div class="links">
-                      <a href="#">Case study →</a><a href="#">Source ↗</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -239,10 +181,6 @@
             <span class="glyph suit-red">♥</span>
             <h3>Systems</h3>
             <span class="domain-no">/ the machinery underneath</span>
-            <p class="blurb">
-              Consensus, schedulers, kernels — the unglamorous plumbing that
-              makes everything above it possible.
-            </p>
           </div>
           <div class="cards-row">
             <div class="card deal" data-rank="A" data-suit="♥" data-color="red">
@@ -253,17 +191,19 @@
                     ><span class="s suit-red">♥</span></span
                   >
                   <div class="body">
-                    <div class="ptitle">Raft, by Hand</div>
+                    <div class="ptitle">Glimpse</div>
                     <div class="pone">
-                      A Raft consensus implementation with a visual cluster
-                      debugger you can partition and heal in real time.
+                      A from-scratch Python tracing library that
+                      auto-instruments any function matching a policy — no
+                      decorators, with Jaeger export and W3C traceparent
+                      propagation built in.
                     </div>
                   </div>
                   <div class="foot">
                     <div class="tags">
-                      <span class="tag">Go</span><span class="tag">gRPC</span>
+                      <span class="tag">Python</span
+                      ><span class="tag">OpenTelemetry</span>
                     </div>
-                    <span class="yr">2025</span>
                   </div>
                   <span class="card-corner br"
                     ><span class="rank">A</span
@@ -278,15 +218,17 @@
                       <span class="back-rank">A♥</span
                       ><span class="back-glyph suit-red">♥</span>
                     </div>
-                    <h4>Raft, by Hand</h4>
+                    <h4>Glimpse</h4>
                     <p class="desc">
-                      Leader election, log replication, and the failure cases
-                      that make distributed systems hard — implemented from the
-                      paper, then made watchable so I could see split-brain
-                      happen and resolve.
+                      Uses sys.settrace to intercept calls across matched
+                      modules, emitting structured spans with trace IDs, parent
+                      linkage, timing, and exceptions to JSONL, SQLite, or a
+                      Jaeger OTLP collector. Built to understand how production
+                      observability tools like Datadog actually work under the
+                      hood — tracing the tracer, so to speak.
                     </p>
                     <div class="links">
-                      <a href="#">Case study →</a><a href="#">Source ↗</a>
+                      <a href="https://github.com/PxPatel/Glimpse">Source ↗</a>
                     </div>
                   </div>
                 </div>
@@ -301,17 +243,18 @@
                     ><span class="s suit-red">♥</span></span
                   >
                   <div class="body">
-                    <div class="ptitle">Yield</div>
+                    <div class="ptitle">SemBuilder</div>
                     <div class="pone">
-                      A cooperative coroutine scheduler that grew into a
-                      teaching-sized kernel for a RISC-V target.
+                      A Next.js course scheduler that queries a live university
+                      catalog API — search courses and sections, then compose a
+                      semester in one paginated interface.
                     </div>
                   </div>
                   <div class="foot">
                     <div class="tags">
-                      <span class="tag">C</span><span class="tag">RISC-V</span>
+                      <span class="tag">Next.js</span
+                      ><span class="tag">TypeScript</span>
                     </div>
-                    <span class="yr">2024</span>
                   </div>
                   <span class="card-corner br"
                     ><span class="rank">K</span
@@ -326,15 +269,20 @@
                       <span class="back-rank">K♥</span
                       ><span class="back-glyph suit-red">♥</span>
                     </div>
-                    <h4>Yield</h4>
+                    <h4>SemBuilder</h4>
                     <p class="desc">
-                      Context switching by hand in assembly, a tiny scheduler,
-                      then traps and a memory map. The kind of project where you
-                      finally feel what the OS is doing on your behalf every
-                      microsecond.
+                      Connects to a university's courses and sections API,
+                      surfaces results through a filterable sidebar, and lets
+                      students assemble a semester without navigating the
+                      registrar's clunky default interface. The real problem is
+                      the gap between a raw course catalog and anything
+                      resembling a usable planning tool — this bridges it.
                     </p>
                     <div class="links">
-                      <a href="#">Case study →</a><a href="#">Source ↗</a>
+                      <a href="https://sem-builder.vercel.app">Live demo →</a
+                      ><a href="https://github.com/PxPatel/SemBuilder"
+                        >Source ↗</a
+                      >
                     </div>
                   </div>
                 </div>
@@ -352,10 +300,6 @@
             <span class="glyph suit-red">♦</span>
             <h3>Markets</h3>
             <span class="domain-no">/ behavior &amp; microstructure</span>
-            <p class="blurb">
-              Markets are the largest behavioral experiment running. I build
-              tools to watch how they move and misbehave.
-            </p>
           </div>
           <div class="cards-row">
             <div class="card deal" data-rank="A" data-suit="♦" data-color="red">
@@ -366,17 +310,18 @@
                     ><span class="s suit-red">♦</span></span
                   >
                   <div class="body">
-                    <div class="ptitle">Orderbook</div>
+                    <div class="ptitle">Indigo</div>
                     <div class="pone">
-                      A low-latency limit-order-book and matching engine with
-                      full market replay from tick data.
+                      A self-hosted portfolio dashboard that turns a Webull CSV
+                      into a Bloomberg-style analytics suite — drawdown, rolling
+                      beta, and a shock simulator, no paid feed.
                     </div>
                   </div>
                   <div class="foot">
                     <div class="tags">
-                      <span class="tag">C++</span><span class="tag">Rust</span>
+                      <span class="tag">FastAPI</span
+                      ><span class="tag">React</span>
                     </div>
-                    <span class="yr">2025</span>
                   </div>
                   <span class="card-corner br"
                     ><span class="rank">A</span
@@ -391,15 +336,17 @@
                       <span class="back-rank">A♦</span
                       ><span class="back-glyph suit-red">♦</span>
                     </div>
-                    <h4>Orderbook</h4>
+                    <h4>Indigo</h4>
                     <p class="desc">
-                      Price-time priority, cancels, partial fills — the real
-                      mechanics — benchmarked against replayed historical data.
-                      Where I learned that microstructure is where the
-                      interesting behavior actually lives.
+                      Reconstructs a full account ledger from a single CSV
+                      export: performance curves, unrealized P&amp;L, VaR-style
+                      risk metrics, sector correlation, and a what-if simulator
+                      using benchmark betas. The kind of multi-panel view that
+                      usually lives behind a terminal subscription — running
+                      locally on free market data.
                     </p>
                     <div class="links">
-                      <a href="#">Case study →</a><a href="#">Source ↗</a>
+                      <a href="https://github.com/PxPatel/Indigo">Source ↗</a>
                     </div>
                   </div>
                 </div>
@@ -414,18 +361,17 @@
                     ><span class="s suit-red">♦</span></span
                   >
                   <div class="body">
-                    <div class="ptitle">Regime</div>
+                    <div class="ptitle">Order Matching Engine</div>
                     <div class="pone">
-                      A volatility-regime detector and event-driven backtester
-                      for testing ideas without fooling yourself.
+                      A distributed limit order book engine in Go — price-time
+                      priority matching backed by Redis and PostgreSQL, modeling
+                      how exchange infrastructure handles order flow at scale.
                     </div>
                   </div>
                   <div class="foot">
                     <div class="tags">
-                      <span class="tag">Python</span
-                      ><span class="tag">NumPy</span>
+                      <span class="tag">Go</span><span class="tag">Redis</span>
                     </div>
-                    <span class="yr">2024</span>
                   </div>
                   <span class="card-corner br"
                     ><span class="rank">K</span
@@ -440,15 +386,20 @@
                       <span class="back-rank">K♦</span
                       ><span class="back-glyph suit-red">♦</span>
                     </div>
-                    <h4>Regime</h4>
+                    <h4>Order Matching Engine</h4>
                     <p class="desc">
-                      A hidden-Markov approach to labeling volatility regimes,
-                      wired into a backtester with realistic costs and slippage.
-                      Built mostly to internalize how easy it is to lie to
-                      yourself with a curve.
+                      A full matching pipeline — order ingestion, price-time
+                      priority matching against a live book, trade execution,
+                      and durable state in PostgreSQL, with Redis coordinating
+                      between nodes. The distributed design forces the questions
+                      single-process engines sidestep: consistency, sequencing,
+                      and price ties.
                     </p>
                     <div class="links">
-                      <a href="#">Case study →</a><a href="#">Source ↗</a>
+                      <a
+                        href="https://github.com/PxPatel/Distributed-Matching-Engine"
+                        >Source ↗</a
+                      >
                     </div>
                   </div>
                 </div>
@@ -458,18 +409,14 @@
         </div>
       </div>
 
-      <!-- ♣ CLUBS — HARDWARE -->
+      <!-- ♣ CLUBS — GAME THEORY -->
       <div class="suite">
         <div class="suite-ghost suit-navy">♣</div>
         <div class="wrap suite-inner">
           <div class="suite-head reveal">
             <span class="glyph suit-navy">♣</span>
-            <h3>Hardware</h3>
-            <span class="domain-no">/ silicon &amp; the physical</span>
-            <p class="blurb">
-              Software is abstract until it isn't. Hardware is where the
-              elegance has to survive contact with physics.
-            </p>
+            <h3>Game Theory</h3>
+            <span class="domain-no">/ play &amp; interaction</span>
           </div>
           <div class="cards-row">
             <div
@@ -485,18 +432,18 @@
                     ><span class="s suit-navy">♣</span></span
                   >
                   <div class="body">
-                    <div class="ptitle">Five-Stage</div>
+                    <div class="ptitle">Wordle, Rebuilt</div>
                     <div class="pone">
-                      A pipelined RISC-V core on an FPGA — hazard detection,
-                      forwarding, the whole datapath.
+                      A faithful Wordle clone in React with dark mode, an
+                      on-screen keyboard, and multi-round play — built from
+                      scratch as a first real dive into UI logic.
                     </div>
                   </div>
                   <div class="foot">
                     <div class="tags">
-                      <span class="tag">Verilog</span
-                      ><span class="tag">FPGA</span>
+                      <span class="tag">React</span
+                      ><span class="tag">TailwindCSS</span>
                     </div>
-                    <span class="yr">2025</span>
                   </div>
                   <span class="card-corner br"
                     ><span class="rank">A</span
@@ -511,15 +458,16 @@
                       <span class="back-rank">A♣</span
                       ><span class="back-glyph suit-navy">♣</span>
                     </div>
-                    <h4>Five-Stage</h4>
+                    <h4>Wordle, Rebuilt</h4>
                     <p class="desc">
-                      Fetch, decode, execute, memory, writeback — synthesized to
-                      a real board and running real programs. Holding a
-                      processor I designed in my hand reframed everything I
-                      thought I understood about software.
+                      Replicates the core Wordle loop — six guesses, color-coded
+                      feedback, keyboard state sync — plus dark mode and
+                      continuous rounds without a reload. An early project; the
+                      value was reasoning through shared state across the board,
+                      keyboard, and game logic before reaching for abstractions.
                     </p>
                     <div class="links">
-                      <a href="#">Case study →</a><a href="#">Source ↗</a>
+                      <a href="https://github.com/PxPatel/Wordle">Source ↗</a>
                     </div>
                   </div>
                 </div>
@@ -539,17 +487,12 @@
                     ><span class="s suit-navy">♣</span></span
                   >
                   <div class="body">
-                    <div class="ptitle">Tactile</div>
+                    <div class="ptitle">Chess</div>
                     <div class="pone">
-                      A split mechanical keyboard, designed end to end — PCB,
-                      firmware, and a hand-tuned layout.
+                      A hobby player rated 1200 in Rapid — methodical,
+                      structure-first, and almost always opening with the French
+                      Defense.
                     </div>
-                  </div>
-                  <div class="foot">
-                    <div class="tags">
-                      <span class="tag">KiCad</span><span class="tag">QMK</span>
-                    </div>
-                    <span class="yr">2024</span>
                   </div>
                   <span class="card-corner br"
                     ><span class="rank">K</span
@@ -564,15 +507,17 @@
                       <span class="back-rank">K♣</span
                       ><span class="back-glyph suit-navy">♣</span>
                     </div>
-                    <h4>Tactile</h4>
+                    <h4>Chess</h4>
                     <p class="desc">
-                      Schematic to soldered board to firmware, designed around
-                      the way my own hands actually move. The tool I now use
-                      every day is one I built — a feedback loop I think about a
-                      lot.
+                      Competitive enough to think carefully about pawn structure
+                      and middlegame plans, not so serious that it stops being
+                      fun. The French suits the style: cede the center early,
+                      build a solid position, and grind it out.
                     </p>
                     <div class="links">
-                      <a href="#">Case study →</a><a href="#">Source ↗</a>
+                      <a href="https://www.chess.com/member/recentlibra"
+                        >Profile ↗</a
+                      >
                     </div>
                   </div>
                 </div>
@@ -690,7 +635,7 @@
           <div class="contact-actions">
             <a
               class="btn btn-primary"
-              href="/cdn-cgi/l/email-protection#d1a1a9a1b0a5b4bde1e591b6bcb0b8bdffb2bebc"
+              href="/cdn-cgi/l/email-protection#32424a425346575e020672555f535b5e1c515d5f"
               >Email me</a
             >
             <a
